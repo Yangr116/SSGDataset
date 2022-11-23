@@ -123,3 +123,4 @@ evaluation = dict(interval=1, metric='bbox', save_best='bbox_mAP')
 
 
 load_from="./checkpoints/faster_rcnn_r50_fpn_tnr-pretrain_1x_coco_20220320_085147-efedfda4.pth"
+fp16 = dict(loss_scale=512.)

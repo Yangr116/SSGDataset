@@ -16,11 +16,15 @@ from .resnext import ResNeXt
 from .ssd_vgg import SSDVGG
 from .swin import SwinTransformer
 from .trident_resnet import TridentResNet
+from .pvt_ori import pvt_small, pvt_tiny
+from .uniformer import UniFormer
+from .scalablevit import scalable_vit_small
 
 __all__ = [
     'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SSDVGG', 'HRNet',
     'MobileNetV2', 'Res2Net', 'HourglassNet', 'DetectoRS_ResNet',
     'DetectoRS_ResNeXt', 'Darknet', 'ResNeSt', 'TridentResNet', 'CSPDarknet',
     'SwinTransformer', 'PyramidVisionTransformer',
-    'PyramidVisionTransformerV2', 'EfficientNet'
+    'PyramidVisionTransformerV2', 'EfficientNet', "pvt_small", 'UniFormer',
+    'scalable_vit_small'
 ]

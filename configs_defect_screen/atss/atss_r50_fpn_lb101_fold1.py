@@ -71,3 +71,4 @@ evaluation = dict(interval=1, metric='bbox', save_best='bbox_mAP')
 
 load_from="./checkpoints/atss_r50_fpn_1x_coco_20200209-985f7bd0.pth"
 
+fp16 = dict(loss_scale=512.)

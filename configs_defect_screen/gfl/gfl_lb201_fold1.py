@@ -65,3 +65,4 @@ evaluation = dict(interval=1, metric='bbox', save_best='bbox_mAP')
 
 
 load_from="./checkpoints/gfl_r50_fpn_1x_coco.pth"
+fp16 = dict(loss_scale=512.)

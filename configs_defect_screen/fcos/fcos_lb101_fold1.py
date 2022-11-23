@@ -126,3 +126,4 @@ evaluation = dict(interval=1, metric='bbox', save_best='bbox_mAP')
 
 load_from = None
 
+fp16 = dict(loss_scale=512.)
